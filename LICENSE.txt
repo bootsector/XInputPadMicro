@@ -1,0 +1,57 @@
+KADE License Information
+------------------------
+ 
+We make our software and hardware open to encourage people to contribute, 
+innovate, improve the technology and make things better for the community.
+Derived products (software and hardware) must adhere to the following licenses 
+and KADE should be appropriately attributed.  
+
+KADE software is licensed under GNU GPLv3
+-----------------------------------------
+
+KADE software is open: you can redistribute it and/or modify it under the terms
+of the GNU General Public License as published by the Free Software Foundation,
+either version 3 of the License, or (at your option) any later version. KADE 
+software is distributed in the hope that it will be useful, but WITHOUT ANY 
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A 
+PARTICULAR PURPOSE. See the GNU General Public License for more details. 
+You should have received a copy of the GNU General Public License along with 
+the software. If not, see http://www.gnu.org/licenses/ .
+
+ADDITIONAL TERMS per GNU GPL Section 7
+No trademark or publicity rights are granted. This license does NOT give you 
+any right, title or interest in the KADE brand. You may not distribute any 
+modification of this program using the KADE name or KADE logo or claim any 
+affiliation or association with KADE or the KADE development team.
+
+Any propagation or conveyance of this program must include this copyright 
+notice and these terms.
+
+You may not misrepresent the origins of this program; modified versions of the 
+program must be marked as such and not identified as the original program.
+
+KADE hardware is licensed under Creative Commons BY-SA 3.0
+----------------------------------------------------------
+
+You are free:
+to copy, distribute and transmit the work
+to adapt the work
+to make commercial use of the work
+
+Under the condition that you must attribute the work in the manner specified by
+the author or licensor (but not in any way that suggests that they endorse you 
+or your use of the work). Refer to the KADE attribution paragraph below.
+
+If you alter, transform, or build upon this work, you may distribute the 
+resulting work only under the same or similar license to this one.
+
+For any reuse or distribution, you must make clear to others the license terms 
+of this work. The best way to do this is with a link to this web page.
+
+http://creativecommons.org/licenses/by-sa/3.0/
+
+KADE attribution
+No trademark or publicity rights are granted. This license does NOT give you 
+any right, title or interest in the KADE brand. You may not distribute any 
+modification of this hardware using the KADE name or KADE logo or claim any 
+affiliation or association with KADE or the KADE development team.
