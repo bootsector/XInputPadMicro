@@ -1,0 +1,126 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "runner": "terminal",
+    "osx": {
+        "command": "make",
+        "isShellCommand": true,
+        "showOutput": "always",
+        "suppressTaskName": true,
+        "options": {
+            "cwd": "${workspaceRoot}"
+        },
+        "tasks": [
+            {
+                "taskName": "all",
+                "args": [
+                    "all"
+                ],
+                "isBuildCommand": true,
+                "problemMatcher": {
+                    "owner": "cpp",
+                    "fileLocation": [
+                        "relative",
+                        "${workspaceRoot}"
+                    ],
+                    "pattern": {
+                        "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "severity": 4,
+                        "message": 5
+                    }
+                }
+            },
+            {
+                "taskName": "clean",
+                "args": [
+                    "clean"
+                ],
+                "problemMatcher": {
+                    "owner": "cpp",
+                    "fileLocation": [
+                        "relative",
+                        "${workspaceRoot}"
+                    ],
+                    "pattern": {
+                        "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "severity": 4,
+                        "message": 5
+                    }
+                }
+            },
+            {
+                "taskName": "dfu",
+                "args": [
+                    "dfu"
+                ]
+            }
+        ]
+    },
+    "windows": {
+        "command": "make",
+        "isShellCommand": true,
+        "showOutput": "always",
+        "suppressTaskName": true,
+        "options": {
+            "cwd": "${workspaceRoot}"
+        },
+        "tasks": [
+            {
+                "taskName": "all",
+                "args": [
+                    "all"
+                ],
+                "isBuildCommand": true,
+                "problemMatcher": {
+                    "owner": "cpp",
+                    "fileLocation": [
+                        "relative",
+                        "${workspaceRoot}"
+                    ],
+                    "pattern": {
+                        "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "severity": 4,
+                        "message": 5
+                    }
+                }
+            },
+            {
+                "taskName": "clean",
+                "args": [
+                    "clean"
+                ],
+                "problemMatcher": {
+                    "owner": "cpp",
+                    "fileLocation": [
+                        "relative",
+                        "${workspaceRoot}"
+                    ],
+                    "pattern": {
+                        "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "severity": 4,
+                        "message": 5
+                    }
+                }
+            },
+            {
+                "taskName": "dfu",
+                "args": [
+                    "dfu"
+                ]
+            }
+        ]
+    }
+}

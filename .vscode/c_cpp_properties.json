@@ -1,0 +1,82 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "defines": [
+                "__AVR_ATmega32U4__"
+            ],
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "/Applications/Arduino160.app/Contents/Resources/Java/hardware/tools/avr/avr/include",
+                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks",
+                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include",
+                "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+                "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1",
+                "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/8.0.0/include",
+                "LUFA/Drivers",
+                "${workspaceFolder}",
+                "${workspaceRoot}"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "/Applications/Arduino160.app/Contents/Resources/Java/hardware/tools/avr/avr/include",
+                    "LUFA/Drivers",
+                    "${workspaceRoot}"
+                ]
+            },
+            "intelliSenseMode": "clang-x64",
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        },
+        {
+            "name": "Linux",
+            "defines": [
+                "__AVR_ATmega32U4__"
+            ],
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceFolder}"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceRoot}"
+                ]
+            },
+            "intelliSenseMode": "clang-x64"
+        },
+        {
+            "name": "Win32",
+            "defines": [
+                "__AVR_ATmega32U4__"
+            ],
+            "includePath": [
+                "C:\\Users\\Bruno\\AppData\\Local/lxss/rootfs/usr/lib/avr/include",
+                "C:\\Users\\Bruno\\AppData\\Local/lxss/rootfs/usr/lib/gcc/avr/4.9.2/include",
+                "C:\\Users\\Bruno\\AppData\\Local/lxss/rootfs/usr/include",
+                "${workspaceRoot}"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/*",
+                    "${workspaceRoot}"
+                ]
+            },
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 3
+}
