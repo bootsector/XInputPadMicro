@@ -172,12 +172,8 @@ int main(void) {
 		if(pad_home && pad_select && pad_a && pad_black) {
 			state = 2;
 		}
-		if(pad_home && pad_select && pad_a && pad_l) {
-			state = 3;
-		}
 		
 		
-
 		gamepad_state.l_x = pad_left_analog_x * 257 + -32768;
 		gamepad_state.l_y = pad_left_analog_y * -257 + 32767;
 		gamepad_state.r_x = pad_right_analog_x * 257 + -32768;
